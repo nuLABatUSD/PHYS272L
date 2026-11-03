@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def make_calibration_function(spec_num):
-    spec_file = np.load("spectrometer_calibration.npz", allow_pickle=True)
+    spec_file = np.load("PHYS272L/spectrometer_calibration.npz", allow_pickle=True)
     
     works = False
     for key in spec_file.files:
