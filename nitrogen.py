@@ -1,3 +1,6 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
 def make_data_dictionary(nrg):
     vv = np.zeros(len(nrg))
     en = np.zeros_like(vv)
